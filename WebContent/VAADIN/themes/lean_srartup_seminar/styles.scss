@@ -1,0 +1,9 @@
+@import "addons.scss";
+@import "lean_srartup_seminar.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in lean_srartup_seminar.scss */
+.lean_srartup_seminar {
+  @include addons;
+  @include lean_srartup_seminar;
+}
